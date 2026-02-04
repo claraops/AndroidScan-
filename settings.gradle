@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()        // 🔴 OBLIGATOIRE pour ML Kit
+        mavenCentral()
+    }
+}
+
+rootProject.name = "QRScannerPro"
+include(":app")
+
+
+

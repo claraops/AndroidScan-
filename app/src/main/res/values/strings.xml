@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">QR Security Scanner Pro</string>
+        <string name="scan_qr_code">Scanner QR Code</string>
+        <string name="view_history">Voir l\'historique</string>
+        <string name="cancel">Annuler</string>
+        <string name="scanning">Scan en cours...</string>
+        <string name="analyzing">Analyse de sécurité...</string>
+        <string name="view_results">Voir les résultats</string>
+        <string name="new_scan">Nouveau scan</string>
+        <string name="save_result">Sauvegarder</string>
+    </resources>

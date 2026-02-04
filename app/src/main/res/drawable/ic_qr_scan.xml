@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFF">
+
+    <!-- Fond du scanner -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M4,4h4v4H4z M16,4h4v4h-4z M4,16h4v4H4z"/>
+
+    <!-- Lignes de scan -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M2,2v4h2V4h2V2z M20,2v2h-2v2h2v2h2V2z M2,20v2h4v-2H4v-2H2z M20,18v-2h-2v2h2z"/>
+
+    <!-- Animation de ligne de scan -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M2,12h20v1H2z"/>
+
+</vector>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120"
+    android:alpha="0.1">
+
+    <!-- Motif de sécurité répété -->
+    <!-- Bouclier 1 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M20,10L60,2l40,8v20c0,15-20,30-40,35S20,45 20,30V10z"/>
+
+    <!-- Bouclier 2 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M80,50l40,8v20c0,15-20,30-40,35S80,85 80,70V50z"/>
+
+    <!-- Bouclier 3 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M20,70L60,62l40,8v20c0,15-20,30-40,35S20,105 20,90V70z"/>
+
+    <!-- Éléments de QR code -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,10h15v15H10z M95,10h15v15H95z M10,95h15v15H10z"/>
+
+</vector>
